@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+.git
+.gitignore
+qa-screenshots
+qa-snap.mjs
+*.tsbuildinfo
