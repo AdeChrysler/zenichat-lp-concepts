@@ -84,8 +84,7 @@ function InboxMock() {
             <span
               className="h-9 w-9 shrink-0 rounded-full"
               style={{
-                background:
-                  "linear-gradient(135deg, var(--color-accent), var(--color-accent-bright))",
+                background: "var(--color-accent)",
               }}
             />
             <div className="min-w-0 flex-1">
@@ -257,8 +256,7 @@ export function VariantB() {
                   <span
                     className="h-9 w-9 rounded-full"
                     style={{
-                      background:
-                        "linear-gradient(135deg, var(--color-accent), var(--color-accent-bright))",
+                      background: "var(--color-accent)",
                     }}
                   />
                   <div>

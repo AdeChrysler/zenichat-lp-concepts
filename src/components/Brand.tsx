@@ -10,8 +10,7 @@ export function ZeniChatLogo({ className = "" }: { className?: string }) {
         aria-hidden
         className="inline-flex h-7 w-7 items-center justify-center rounded-md"
         style={{
-          background:
-            "linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-bright) 100%)",
+          background: "var(--color-accent)",
           boxShadow: "0 6px 18px -6px var(--color-accent-glow)",
         }}
       >

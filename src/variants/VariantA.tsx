@@ -46,8 +46,7 @@ function RailDecor() {
   return (
     <div className="absolute inset-x-0 top-1/2 -z-10 h-px -translate-y-1/2"
       style={{
-        background:
-          "linear-gradient(90deg, transparent 0%, rgba(0,136,255,0.4) 50%, transparent 100%)",
+        background: "rgba(0,136,255,0.25)",
       }}
     />
   );
@@ -182,8 +181,7 @@ export function VariantA() {
           <div className="relative mt-14">
             <div className="hidden lg:block absolute top-12 left-0 right-0 h-px -z-10"
               style={{
-                background:
-                  "linear-gradient(90deg, transparent 0%, rgba(0,136,255,0.5) 20%, rgba(0,136,255,0.5) 80%, transparent 100%)",
+                background: "rgba(0,136,255,0.35)",
               }}
             />
             <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">

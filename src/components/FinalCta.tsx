@@ -13,8 +13,7 @@ export function FinalCta({
         <div
           className="card-accent overflow-hidden p-10 md:p-16 text-center relative"
           style={{
-            background:
-              "linear-gradient(180deg, rgba(0,102,255,0.18) 0%, rgba(0,102,255,0.04) 100%)",
+            background: "rgba(0,102,255,0.10)",
           }}
         >
           <h2 className="heading-h2 max-w-3xl mx-auto">{title}</h2>
