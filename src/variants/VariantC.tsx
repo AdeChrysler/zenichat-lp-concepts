@@ -56,7 +56,7 @@ function ChatBubbleHero() {
         </div>
         <span
           className="h-2 w-2 rounded-full pulse-glow"
-          style={{ background: "#22c55e" }}
+          style={{ background: "var(--color-accent-bright)" }}
         />
       </div>
       <div className="mt-4 space-y-2.5 text-[13px]">
